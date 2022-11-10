@@ -1,0 +1,465 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Cormorant+SC:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Trilogy Soccer Training Website</title>
+  </head>
+  <body>
+    <header class="navbarContainer">
+      <nav id="navbar" class="flex">
+        <div class="imgContainer" id="logoContainer">
+          <a href="index.html">
+            <img
+              id="trilogy-home"
+              src="images/white-trilogy-logo.PNG"
+              title="Trilogy Soccer Training Home Page"
+              alt="Trilogy Soccer Home Page"
+            />
+          </a>
+        </div>
+        <ul class="navList">
+          <!--<li><a href="#our-goal">Our Goal</a></li>-->
+          <li><a href="what-we-offer.html">What we Offer</a></li>
+          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="contact-box">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+            class="contact-link"
+            target="_blank"
+            ><button id="contact-us" class="contact-btn">Contact Us</button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container main-home" id="graphic-main-home">
+        <!--
+            <div class="backgroundVideo">
+                <video id="mainVid" autoplay loop muted>
+                    <source type="video/mp4" src="images/trilogy-camp-newest.MP4">
+                </video>
+            </div>
+            -->
+        <div class="text-container flex" id="graphic-Text">
+          <h1 id="take-your-game" class="big-title">
+            Take Your Game to the Next Level
+          </h1>
+          <!--<h3 id="first-session-free">Book Your First Session completely Free!</h3>-->
+          <button id="sign-up-now" class="sign-up-btn">Sign Up Today</button>
+        </div>
+
+        <div class="overlay"></div>
+      </section>
+      <section class="container our-goal" id="intro-section">
+        <div class="text-container flex" id="our-goal">
+          <div id="our-goal-title" class="flex">
+            <div class="title">
+              <h2 id="our-goal-h2" class="medium-title">
+                Our Goal is Your Development
+              </h2>
+              <h3 class="ppp-h3 small-title" id="what-we-do">
+                Who we are & what we do
+              </h3>
+            </div>
+          </div>
+          <!--<h3 class="ppp-h3" id="what-we-do">Who we are & what we do</h3>-->
+          <div id="intro-text">
+            <p>
+              That's what <strong>Trilogy Soccer Training</strong> is all about.
+              We want to develop the next generation of soccer athletes, ready
+              to perform consistently at the highest of levels. From
+              <em>Fundamentals</em> to <em>Fine details</em>, we are confident
+              that we can help push our athletes to become the very best they
+              can be. That's why we put so much effort into making sure each
+              session is <strong>top-tier</strong> and
+              <strong>high-quality</strong>. It's not about skill or talent, but
+              about developing the <em>mentality</em> of a champion.
+            </p>
+            <p>
+              Whether you are just beginning your journey and curious on where
+              to start, or you're looking to push your limits and sharpen up
+              those skills, let us help you today!
+            </p>
+            <button id="learn-more" class="learn-more-btn">Learn More</button>
+          </div>
+        </div>
+        <div class="image-Section" id="intro-image-container">
+          <div id="video-container" class="intro-video-box">
+            <video height="256" muted controls autoplay id="video">
+              <source type="video/mp4" src="images/trilogy-camp-newest.MP4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="ppp-section">
+        <div class="flex" id="ppp-heading">
+          <h2 class="ppp-h2 medium-title" id="prepare">Prepare.</h2>
+          <h2 class="ppp-h2 medium-title" id="perform">Perform.</h2>
+          <h2 class="ppp-h2 medium-title" id="perfect">Perfect.</h2>
+        </div>
+        <div class="flex" id="sub-heading">
+          <h3 class="ppp-h3 small-title">Prepare with dedication.</h3>
+          <h3 class="ppp-h3 small-title">Perform with confidence.</h3>
+          <h3 class="ppp-h3 small-title">Perfect the process.</h3>
+        </div>
+        <div class="flex" id="ppp-text">
+          <p id="methodology-text">
+            Our methodology revolves around making our athletes train the way
+            they want to play--- intense, precise, and in control. We create
+            "game-like" moments and drills in order to assimilate the game as
+            much as possible so that our athletes become comfortable repeating
+            these movements at game-speed. Passing & receiving, dribbling, ball
+            control, 1 v 1 skills, movement off-the-ball, agility,
+            explosiveness, shooting & finishing, and so much more. Our athletes
+            will work on turning their weaknesses into strengths while also
+            understaning how to apply their skills and training onto the pitch.
+            We focus on making our athletes smarter and more functional.
+          </p>
+          <div class="image-container" id="andrew-wide-flex">
+            <img
+              src="images/explaining-andrew-coach-wide.JPG"
+              alt="Coach explaining drill"
+            />
+          </div>
+        </div>
+        <div class="grid" id="ppp-images">
+          <div class="image-container" id="angel-grid">
+            <img
+              src="images/trilogy-angel-skills.JPG"
+              alt="Angel working on soccer skills"
+            />
+          </div>
+          <div class="image-container" id="pose-grid">
+            <img
+              src="images/andrew-training-trilogy.JPG"
+              alt="Picture with Andrew and Gabriel Trilogy athletes"
+            />
+          </div>
+          <div class="image-container" id="camp-skills">
+            <img
+              src="images/soccer-camp-trilogy.JPG"
+              alt="trilogy camp skills work"
+            />
+          </div>
+          <div class="image-container" id="brandon-training">
+            <img
+              src="images/training-with-brandon.jpg"
+              alt="training with brandon"
+            />
+          </div>
+          <div class="image-container" id="andrew-wide">
+            <img
+              src="images/explaining-andrew-coach-wide.JPG"
+              alt="Coach explaining drill"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="container" id="benefits-section">
+        <h2>What Makes Us Trilogy Soccer</h2>
+        <div class="grid benefits-boxes" id="boxes-container">
+          <div class="small-box text-box" id="sharpen-fundamentals">
+            <h3 id="fundamentals" class="box-heading">Fundamentals</h3>
+            <img
+              id="fundamental-icon"
+              class="icon"
+              src="images/soccer-fundamental-icon.png"
+              title="fundamentals icon"
+            />
+            <p>
+              Sharpen your Fundamentals like passing, receiving, dribbling, &
+              shooting.
+            </p>
+          </div>
+
+          <div class="small-box text-box" id="boost-confidence">
+            <h3 id="confidence" class="box-heading">Confidence</h3>
+            <img
+              id="confidence-icon"
+              class="icon"
+              src="images/confidence-icon.png"
+              title="confidence icon"
+            />
+            <p>
+              Boost your confidence and ability to be more comfortable on the
+              ball.
+            </p>
+          </div>
+          <!--
+                <div class="small-box image-box" id="confidence-pic">
+                    <img id="confidence-image" src="images/andrew-training-trilogy.JPG" title="Trilogy Athletes Andrew and Gabriel posing for a picture after an intense session!">
+                </div>    
+                -->
+          <!--
+                <div class="small-box image-box" id="soccer-iq-pic">
+                    <img id="iq-image" src="images/trilogy-group-talk.JPG" title="Trilogy Coach Francisco explaining the important details to a group of Trilogy Spring Campers.">
+                </div>    
+                -->
+
+          <div class="small-box text-box" id="soccer-iq">
+            <h3 id="iq-heading" class="box-heading">Soccer IQ</h3>
+            <img
+              id="soccer-iq-icon"
+              class="icon"
+              src="images/soccer-iq-icon.png"
+              title="soccer iq icon"
+            />
+            <p>
+              Increase your Soccer IQ by learning all the details that will give
+              you an edge.
+            </p>
+          </div>
+
+          <!--
+                <div class="small-box image-box" id="mindset-pic">
+                    <img id="mindset-image" src="images/andrew-striking-wide.JPG" title="Working on our ball striking and mobility after the pass.">
+                </div>    
+                -->
+
+          <div class="small-box text-box" id="mindset-box">
+            <h3 id="mindset" class="box-heading">Champion Mindset</h3>
+            <img
+              id="champion-icon"
+              class="icon"
+              src="images/champion-icon.png"
+              title="champions icon"
+            />
+            <p>Develop a Champion's mindset to continue pushing your limits.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contianer quality-training">
+        <div class="quality-image-container">
+          <div class="weOfferText">
+            <h2 class="quality-Heading">
+              Quality Training for Quality Athletes
+            </h2>
+            <h3 class="small-title">What we offer</h3>
+            <p class="description">
+              The way we train is simple--- mimic the game as much as possible
+              while keeping it intense, in control, and consistent. We strive to
+              be efficient on the pitch by being efficient with our drills that
+              are always focused on player development in the fundamentals but
+              also in the fine details.
+            </p>
+            <button class="sign-up-btn">Sign Up</button>
+          </div>
+          <img
+            src="images/cesar-francisco-example-2.JPG"
+            alt="quality training"
+            id="qualityImage"
+          />
+        </div>
+        <div class="offer-box" id="privateBox">
+          <div class="overlay"></div>
+          <img
+            id="privateImg"
+            src="images/one-on-one-angel-wide.jpg"
+            alt="private training"
+            class="offer-box-img"
+          />
+          <div class="textBox">
+            <h2 class="boxTitle">Private Training</h2>
+          </div>
+        </div>
+        <div class="offer-box" id="groupBox">
+          <div class="overlay"></div>
+          <img
+            src="images/trilogy-group-skills.JPG"
+            alt="group training"
+            class="offer-box-img"
+          />
+          <div class="textBox">
+            <h2 class="boxTitle">Group Training</h2>
+          </div>
+        </div>
+        <div class="offer-box" id="camps">
+          <div class="overlay"></div>
+          <img
+            id="camp-Pic"
+            src="images/gabe-frank-dribbling.JPG"
+            alt="soccer camps"
+            class="offer-box-img"
+          />
+          <div class="textBox">
+            <h2 class="boxTitle">Soccer Camps</h2>
+          </div>
+        </div>
+        <!--
+        <div class="offerContainer">
+          <div class="offer-box" id="privateBox">
+            <div class="overlay"></div>
+            <img
+              src="images/one-on-one-angel-wide.jpg"
+              alt="private training"
+              class="offer-box-img"
+            />
+            <div class="textBox">
+              <h2 class="boxTitle">Private Training</h2>
+            </div>
+          </div>
+          <div class="offer-box" id="groupBox">
+            <div class="overlay"></div>
+            <img
+              src="images/trilogy-group-skills.JPG"
+              alt="group training"
+              class="offer-box-img"
+            />
+            <div class="textBox">
+              <h2 class="boxTitle">Group Training</h2>
+            </div>
+          </div>
+          <div class="offer-box" id="camps">
+            <div class="overlay"></div>
+            <img
+              src="images/gabe-frank-dribbling.JPG"
+              alt="soccer camps"
+              class="offer-box-img"
+            />
+            <div class="textBox">
+              <h2 class="boxTitle">Soccer Camps</h2>
+            </div>
+          </div>
+        </div>  
+        -->
+      </section>
+
+      <section class="container" id="how-it-works">
+        <h2 id="how-it-works-title">How it works</h2>
+        <div id="how-it-works-boxes" class="flex">
+          <div id="step-1-box" class="step-box">
+            <h3 id="Step-1">1. Sign Up</h3>
+            <div class="icon-container">
+              <img
+                id="sign-up-icon"
+                src="images/sign-up-icon.png"
+                title="Sign Up"
+              />
+            </div>
+            <p class="description step-box-p">
+              Sign up using our form in order to share your name, age, contact,
+              position, and availability so that we can take a look to best
+              advise you on the appropriate training programs.
+            </p>
+          </div>
+          <div id="step-2-box" class="step-box">
+            <h3 id="Step-2">2. We'll connect</h3>
+            <div class="icon-container">
+              <img
+                id="connect-icon"
+                src="images/connect-icon.png"
+                title="We'll Connect"
+              />
+            </div>
+            <p class="description step-box-p">
+              After taking a look at your information, we'll contact via email
+              or a phone-call so that we can further asses your needs and set-up
+              a first session together.
+            </p>
+          </div>
+          <div id="step-3-box" class="step-box">
+            <h3 id="Step-3">3. See You on the Field</h3>
+            <div class="icon-container">
+              <img
+                id="onthefield-icon"
+                src="images/see-you-on-the-field-icon.png"
+                title="See You on the field"
+              />
+            </div>
+            <p class="description step-box-p">
+              Once it's all set-up, we'll see you on the field to begin our
+              Player Development journey! Bring all necessary equipment and a
+              good attitude so that you can get the best out of our training.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container call-to-action" id="sign-up-section">
+        <div class="call-to-action-box">
+          <h2 class="medium-title" id="ready-to-join">
+            Ready to Start Your Journey With Us?
+          </h2>
+          <button id="sign-up-now" class="sign-up-btn">Sign Up Today</button>
+        </div>
+      </section>
+
+      <section class="container final-photos">
+        <div class="flex picture-container">
+          <img
+            id="final-group-img"
+            src="images/trilogy-camp-cropped.jpeg"
+            alt="trilogy athletes pose for a photo"
+          />
+          <img
+            id="shirt-shot-img"
+            src="images/gabe-frank-dribbling.JPG"
+            alt="Trilogy soccer training, the best for the best."
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="flex top-level" id="top-footer-box">
+        <div class="flex sub-box" id="media">
+          <ul id="socials-list">
+            <li>
+              <a
+                href="https://www.instagram.com/trilogysoccer/"
+                class="social-link"
+                target="_blank"
+              >
+                <img
+                  src="images/insta-icon-white.png"
+                  alt="instagram"
+                  class="footer-social-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC-iIyCw4rAa_piMRPWrDSMw"
+                class="social-link"
+                target="_blank"
+                ><img
+                  src="images/youtube-icon-white.png"
+                  alt="youtube"
+                  class="footer-social-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="social-link" target="_blank"
+                ><img
+                  src="images/email-icon-white.png"
+                  alt="email"
+                  class="footer-social-icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sub-box flex" id="logo-text">
+          <img id="trilogy-simple-logo" src="images/white-trilogy-logo.PNG" />
+          <h4 id="small-text-footer">Trilogy Soccer Training, Est. 2021</h4>
+        </div>
+        <div class="flex sub-box" id="location">
+          <h3 id="location-text">Santa Clarita, CA, USA</h3>
+        </div>
+      </div>
+      <div class="bottom-level" id="bottom-footer-box">
+        <h4 id="webcode-author">Webdesign & Code by Francisco J. Perez</h4>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
