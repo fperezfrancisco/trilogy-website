@@ -29,11 +29,64 @@
         <ul class="navList">
           <!--<li><a href="#our-goal">Our Goal</a></li>-->
           <li><a href="what-we-offer.html">What we Offer</a></li>
-          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="index.html#how-it-works">How it Works</a></li>
           <li><a href="about.html">About Us</a></li>
         </ul>
         <div class="contact-box">
-          <button id="contact-us" class="contact-btn">Contact Us</button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+            class="contact-link"
+            target="_blank"
+            ><button id="contact-us" class="contact-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" id="menuBtn">
+            <img
+              src="images/menu-closed-icon.png"
+              alt="menu"
+              class="menu-closed"
+            />
+          </button>
+          <div class="dropdown-content hide" id="dropDown-content">
+            <div class="close">
+              <button class="closeBtn">
+                <img
+                  src="images/menu-icon-open.png"
+                  alt="x"
+                  class="menu-opened"
+                />
+              </button>
+            </div>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="what-we-offer.html" class="menu-link">What we offer</a>
+              </li>
+              <li class="menu-item">
+                <a href="index.html#how-it-works" class="menu-link"
+                  >How it works</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="about.html" class="menu-link">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+                  class="menu-link"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="trilogyMenu">
+              <img
+                src="images/trilogy-soccer-logo.png"
+                alt="trilogy soccer training"
+                class="trilogyMenuImg"
+              />
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -98,6 +151,7 @@
               src="images/da-logo.png"
               alt="development academy"
               class="logo"
+              id="da"
             />
           </div>
           <div class="individual-logo-box">
@@ -175,7 +229,10 @@
               /></a>
             </li>
             <li>
-              <a href="#" class="social-link" target="_blank"
+              <a
+                href="mailto:trilogysoccertraining@gmail.com"
+                class="social-link"
+                target="_blank"
                 ><img
                   src="images/email-icon-white.png"
                   alt="email"
@@ -186,7 +243,7 @@
         </div>
         <div class="sub-box flex" id="logo-text">
           <img id="trilogy-simple-logo" src="images/white-trilogy-logo.PNG" />
-          <h4 id="small-text-footer">Trilogy Soccer Training, Est. 2021</h4>
+          <h4 id="small-text-footer">Trilogy Soccer Training</h4>
         </div>
         <div class="flex sub-box" id="location">
           <h3 id="location-text">Santa Clarita, CA, USA</h3>
@@ -196,5 +253,6 @@
         <h4 id="webcode-author">Webdesign & Code by Francisco J. Perez</h4>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

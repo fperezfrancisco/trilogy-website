@@ -33,7 +33,58 @@
           <li><a href="about.html">About Us</a></li>
         </ul>
         <div class="contact-box">
-          <button id="contact-us" class="contact-btn">Contact Us</button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+            class="contact-link"
+            target="_blank"
+            ><button id="contact-us" class="contact-btn">Contact Us</button>
+          </a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" id="menuBtn">
+            <img
+              src="images/menu-closed-icon.png"
+              alt="menu"
+              class="menu-closed"
+            />
+          </button>
+          <div class="dropdown-content hide" id="dropDown-content">
+            <div class="close">
+              <button class="closeBtn">
+                <img
+                  src="images/menu-icon-open.png"
+                  alt="x"
+                  class="menu-opened"
+                />
+              </button>
+            </div>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="what-we-offer.html" class="menu-link">What we offer</a>
+              </li>
+              <li class="menu-item">
+                <a href="#how-it-works" class="menu-link">How it works</a>
+              </li>
+              <li class="menu-item">
+                <a href="about.html" class="menu-link">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+                  class="menu-link"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="trilogyMenu">
+              <img
+                src="images/trilogy-soccer-logo.png"
+                alt="trilogy soccer training"
+                class="trilogyMenuImg"
+              />
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -45,7 +96,7 @@
         <div class="overlay"></div>
       </section>
 
-      <section class="container we-offer-intro grid">
+      <section class="container we-offer-intro grid" id="offer-intro">
         <div class="flex training-img-box offer-img-box">
           <img
             src="images/explaining-aj-andrew-wide.JPG"
@@ -115,7 +166,7 @@
             </div>
             <ul class="offer-list">
               <li class="offer-item">One-on-one coaching</li>
-              <li class="offer-item">30 min, 45 min, or 60 min sessions</li>
+              <li class="offer-item">30 min or 60 min sessions</li>
               <li class="offer-item">
                 Specific training tailored to individual player needs
               </li>
@@ -223,7 +274,14 @@
           <h2 class="medium-title" id="ready-to-join">
             Ready to Start Your Journey With Us?
           </h2>
-          <button id="sign-up-now" class="sign-up-btn">Sign Up Today</button>
+          <button
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScQfb0lk0B9FIbXJKTSwI1MmadfXSiUIC3fQJfVg0D_K-BGgw/viewform?usp=pp_url');"
+            target="_blank"
+            id="sign-up-now"
+            class="sign-up-btn"
+          >
+            Sign Up Today
+          </button>
         </div>
       </section>
     </main>
@@ -256,7 +314,10 @@
               /></a>
             </li>
             <li>
-              <a href="#" class="social-link" target="_blank"
+              <a
+                href="mailto:trilogysoccertraining@gmail.com"
+                class="social-link"
+                target="_blank"
                 ><img
                   src="images/email-icon-white.png"
                   alt="email"
@@ -267,7 +328,7 @@
         </div>
         <div class="sub-box flex" id="logo-text">
           <img id="trilogy-simple-logo" src="images/white-trilogy-logo.PNG" />
-          <h4 id="small-text-footer">Trilogy Soccer Training, Est. 2021</h4>
+          <h4 id="small-text-footer">Trilogy Soccer Training</h4>
         </div>
         <div class="flex sub-box" id="location">
           <h3 id="location-text">Santa Clarita, CA, USA</h3>
@@ -277,5 +338,6 @@
         <h4 id="webcode-author">Webdesign & Code by Francisco J. Perez</h4>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

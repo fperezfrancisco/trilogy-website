@@ -39,6 +39,53 @@
             ><button id="contact-us" class="contact-btn">Contact Us</button>
           </a>
         </div>
+
+        <div class="dropdown">
+          <button class="dropbtn" id="menuBtn">
+            <img
+              src="images/menu-closed-icon.png"
+              alt="menu"
+              class="menu-closed"
+            />
+          </button>
+          <div class="dropdown-content hide" id="dropDown-content">
+            <div class="close">
+              <button class="closeBtn">
+                <img
+                  src="images/menu-icon-open.png"
+                  alt="x"
+                  class="menu-opened"
+                />
+              </button>
+            </div>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="what-we-offer.html" class="menu-link">What we offer</a>
+              </li>
+              <li class="menu-item">
+                <a href="#how-it-works" class="menu-link">How it works</a>
+              </li>
+              <li class="menu-item">
+                <a href="about.html" class="menu-link">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd0nlBnqHXJT5rqXsphaE1DOfJM_0eOpHghrw6ToFtZacVxNQ/viewform?usp=pp_url"
+                  class="menu-link"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="trilogyMenu">
+              <img
+                src="images/trilogy-soccer-logo.png"
+                alt="trilogy soccer training"
+                class="trilogyMenuImg"
+              />
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -55,7 +102,14 @@
             Take Your Game to the Next Level
           </h1>
           <!--<h3 id="first-session-free">Book Your First Session completely Free!</h3>-->
-          <button id="sign-up-now" class="sign-up-btn">Sign Up Today</button>
+          <button
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScQfb0lk0B9FIbXJKTSwI1MmadfXSiUIC3fQJfVg0D_K-BGgw/viewform?usp=pp_url');"
+            target="_blank"
+            id="sign-up-now"
+            class="sign-up-btn"
+          >
+            Sign Up Today
+          </button>
         </div>
 
         <div class="overlay"></div>
@@ -63,7 +117,7 @@
       <section class="container our-goal" id="intro-section">
         <div class="text-container flex" id="our-goal">
           <div id="our-goal-title" class="flex">
-            <div class="title">
+            <div class="title reveal title-animate-in">
               <h2 id="our-goal-h2" class="medium-title">
                 Our Goal is Your Development
               </h2>
@@ -73,7 +127,7 @@
             </div>
           </div>
           <!--<h3 class="ppp-h3" id="what-we-do">Who we are & what we do</h3>-->
-          <div id="intro-text">
+          <div id="intro-text" class="reveal text-animate">
             <p>
               That's what <strong>Trilogy Soccer Training</strong> is all about.
               We want to develop the next generation of soccer athletes, ready
@@ -90,7 +144,9 @@
               to start, or you're looking to push your limits and sharpen up
               those skills, let us help you today!
             </p>
-            <button id="learn-more" class="learn-more-btn">Learn More</button>
+            <a href="what-we-offer.html#offer-intro">
+              <button id="learn-more" class="learn-more-btn">Learn More</button>
+            </a>
           </div>
         </div>
         <div class="image-Section" id="intro-image-container">
@@ -102,17 +158,17 @@
         </div>
       </section>
       <section class="container" id="ppp-section">
-        <div class="flex" id="ppp-heading">
+        <div class="flex reveal title-animate-in" id="ppp-heading">
           <h2 class="ppp-h2 medium-title" id="prepare">Prepare.</h2>
           <h2 class="ppp-h2 medium-title" id="perform">Perform.</h2>
           <h2 class="ppp-h2 medium-title" id="perfect">Perfect.</h2>
         </div>
-        <div class="flex" id="sub-heading">
+        <div class="flex reveal title-animate-in" id="sub-heading">
           <h3 class="ppp-h3 small-title">Prepare with dedication.</h3>
           <h3 class="ppp-h3 small-title">Perform with confidence.</h3>
           <h3 class="ppp-h3 small-title">Perfect the process.</h3>
         </div>
-        <div class="flex" id="ppp-text">
+        <div class="flex reveal text-animate" id="ppp-text">
           <p id="methodology-text">
             Our methodology revolves around making our athletes train the way
             they want to play--- intense, precise, and in control. We create
@@ -166,9 +222,14 @@
         </div>
       </section>
       <section class="container" id="benefits-section">
-        <h2>What Makes Us Trilogy Soccer</h2>
+        <h2 class="reveal title-animate-in-short">
+          What Makes Us Trilogy Soccer
+        </h2>
         <div class="grid benefits-boxes" id="boxes-container">
-          <div class="small-box text-box" id="sharpen-fundamentals">
+          <div
+            class="small-box text-box reveal text-pop-up-1"
+            id="sharpen-fundamentals"
+          >
             <h3 id="fundamentals" class="box-heading">Fundamentals</h3>
             <img
               id="fundamental-icon"
@@ -182,7 +243,10 @@
             </p>
           </div>
 
-          <div class="small-box text-box" id="boost-confidence">
+          <div
+            class="small-box text-box reveal text-pop-up-1"
+            id="boost-confidence"
+          >
             <h3 id="confidence" class="box-heading">Confidence</h3>
             <img
               id="confidence-icon"
@@ -206,7 +270,7 @@
                 </div>    
                 -->
 
-          <div class="small-box text-box" id="soccer-iq">
+          <div class="small-box text-box reveal text-pop-up-1" id="soccer-iq">
             <h3 id="iq-heading" class="box-heading">Soccer IQ</h3>
             <img
               id="soccer-iq-icon"
@@ -226,7 +290,7 @@
                 </div>    
                 -->
 
-          <div class="small-box text-box" id="mindset-box">
+          <div class="small-box text-box reveal text-pop-up-1" id="mindset-box">
             <h3 id="mindset" class="box-heading">Champion Mindset</h3>
             <img
               id="champion-icon"
@@ -253,7 +317,16 @@
               are always focused on player development in the fundamentals but
               also in the fine details.
             </p>
-            <button class="sign-up-btn">Sign Up</button>
+            <div class="buttonBox">
+              <button
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScQfb0lk0B9FIbXJKTSwI1MmadfXSiUIC3fQJfVg0D_K-BGgw/viewform?usp=pp_url');"
+                target="_blank"
+                class="sign-up-btn"
+              >
+                Sign Up
+              </button>
+              <button class="learn-more-btn">Learn More</button>
+            </div>
           </div>
           <img
             src="images/cesar-francisco-example-2.JPG"
@@ -349,8 +422,8 @@
             </div>
             <p class="description step-box-p">
               Sign up using our form in order to share your name, age, contact,
-              position, and availability so that we can take a look to best
-              advise you on the appropriate training programs.
+              position, and availability so that we can best advise you on the
+              appropriate training programs.
             </p>
           </div>
           <div id="step-2-box" class="step-box">
@@ -391,7 +464,14 @@
           <h2 class="medium-title" id="ready-to-join">
             Ready to Start Your Journey With Us?
           </h2>
-          <button id="sign-up-now" class="sign-up-btn">Sign Up Today</button>
+          <button
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScQfb0lk0B9FIbXJKTSwI1MmadfXSiUIC3fQJfVg0D_K-BGgw/viewform?usp=pp_url');"
+            target="_blank"
+            id="sign-up-now"
+            class="sign-up-btn"
+          >
+            Sign Up Today
+          </button>
         </div>
       </section>
 
@@ -439,7 +519,10 @@
               /></a>
             </li>
             <li>
-              <a href="#" class="social-link" target="_blank"
+              <a
+                href="mailto:trilogysoccertraining@gmail.com"
+                class="social-link"
+                target="_blank"
                 ><img
                   src="images/email-icon-white.png"
                   alt="email"
@@ -450,7 +533,7 @@
         </div>
         <div class="sub-box flex" id="logo-text">
           <img id="trilogy-simple-logo" src="images/white-trilogy-logo.PNG" />
-          <h4 id="small-text-footer">Trilogy Soccer Training, Est. 2021</h4>
+          <h4 id="small-text-footer">Trilogy Soccer Training</h4>
         </div>
         <div class="flex sub-box" id="location">
           <h3 id="location-text">Santa Clarita, CA, USA</h3>
